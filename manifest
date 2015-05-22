@@ -1,18 +1,9 @@
-#
-# this is your module manifest and used by Titanium
-# during compilation, packaging, distribution, etc.
-#
-version: 0.3
-apiversion: 2
-description: Titanium module for the Intercom iOS SDK
-author: Simon Rand
-license: MIT License
-copyright: Copyright (c) 2014 Simon Rand
+#appname: tiIntercom
+#publisher: Icarus
+#url: 
+#image: appicon.png
+#appid: ti.intercom.ios
+#desc: undefined
+#type: module
+#guid: e473d225-0578-4cb4-85d4-31cb7d1c32d5
 
-
-# these should not be edited
-name: TiIntercom
-moduleid: ti.intercom
-guid: a66b3b9a-7d87-44c5-a04e-d10d05a9f7d2
-platform: iphone
-minsdk: 3.2.0.GA

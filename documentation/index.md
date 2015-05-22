@@ -1,27 +1,39 @@
-# TiIntercom Module
+# tiIntercom Module
 
 ## Description
 
-This module is a lightweight wrapper around the Intercom iOS SDK (https://github.com/intercom/intercom-ios/) providing access to all currently implemented functionality (including 2-way messaging) in Titanium projects.
+TODO: Enter your module description here
 
-Compatible with iPhone/iPod Touch and iPad. Requires Titanium SDK version 3.1+.
-
-## Accessing the TiIntercom Module
+## Accessing the tiIntercom Module
 
 To access this module from JavaScript, you would do the following:
 
-	var TiIntercom = require("ti.intercom");
+    var tiintercom = require("ti.intercom.ios");
 
-The TiIntercom variable is a reference to the Module object.
+The tiintercom variable is a reference to the Module object.
+
+## Reference
+
+TODO: If your module has an API, you should document
+the reference here.
+
+### tiintercom.function
+
+TODO: This is an example of a module function.
+
+### tiintercom.property
+
+TODO: This is an example of a module property.
 
 ## Usage
 
-See example.
+TODO: Enter your usage example here
 
 ## Author
 
-Simon Rand: https://github.com/simonrand ([@simonrand](https://twitter.com/simonrand))
+TODO: Enter your author name, email and other contact
+details you want to share here.
 
 ## License
 
-MIT License, Copyright (c) 2014 Simon Rand
+TODO: Enter your license/legal information here.
