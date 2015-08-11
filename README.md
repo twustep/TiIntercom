@@ -2,16 +2,22 @@
 
 ## Change Log
 - Modified method logEventWithNameAndData. It now takes 2 parameters. 
-
+```
 TiIntercom.logEventWithNameAndData(
 	'<#eventName>',
 	{<#eventDataObject>}
 )
-
+```
 - Added Push Notification support. 
-
+```
 TiIntercom.setDeviceToken('<#deviceToken>');
-
+```
+- Added user update support via updateUserWithAttributes. 
+```
+TiIntercom.updateUserWithAttributes({
+	<#userAttributesObject>
+})
+```
 
 ## License
 
@@ -72,6 +78,11 @@ API
 	
 	// Login with user email
 	TiIntercom.registerUserWithEmail("<#user@email.com#>");
+	
+	// Update user with attributes
+	TiIntercom.updateUserWithAttributes({
+	    <#userAttributesObject#>
+	});
 	
 	// Log event with name
 	TiIntercom.logEventWithName("<#eventName#>")

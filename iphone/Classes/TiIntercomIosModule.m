@@ -192,4 +192,20 @@
    
 }
 
+
+- (void)updateUserWithAttributes:(id)args 
+{
+
+  	NSDictionary *data = nil;
+
+  	
+  	ENSURE_ARG_AT_INDEX(data, args, 0, NSDictionary);
+
+  
+	[Intercom updateUserWithAttributes:data];
+	NSLog(@"[INFO][DEBUG] Intercom update user with:  %@", data );
+}
+
+
+
 @end
