@@ -1,11 +1,16 @@
 #Intercom iphone module for Intercom IOS SDK version 2.2.3
 
-Test Environment
-========
+## Change Log
+- Modified method logEventWithNameAndData. It now takes 2 parameters. 
 
-Titanium Mobile SDK 2.1.0GA.
-iOS SDK 4.3.3.
-Intercom IOS SDK Version 2.2.3
+TiIntercom.logEventWithNameAndData(
+	'<#eventName>',
+	{<#eventDataObject>}
+)
+
+- Added Push Notification support. 
+
+TiIntercom.setDeviceToken('<#deviceToken>');
 
 
 ## License
@@ -32,9 +37,11 @@ Intercom IOS SDK Version 2.2.3
 
 
 ##Installation for Mac OS X
+
+
+
 ###Step 1
-Download AviaryModule project.
-Copy the ti.intercom.ios-iphone-1.0.0.zip into your Titanium SDK directory: http://docs.appcelerator.com/titanium/2.0/#!/guide/Titanium_Modules
+Copy the ti.intercom.ios-iphone-1.0.1.zip into your Titanium SDK directory: http://docs.appcelerator.com/titanium/2.0/#!/guide/Titanium_Modules
 
 Update modules section of your tiapp.xml like below:
 
@@ -71,15 +78,17 @@ API
 	
 	// Log event with name and data
 	// Intercom does not buffer log during offline
-	TiIntercom.logEventWithNameAndData({
-		'name':'<#eventName#>',
-		'date':'<#date#>',
-		'data':'<#data#>'
-	})
+	TiIntercom.logEventWithNameAndData(
+		'<#eventName#>',
+		{<#eventDataObject>}
+	)
 	
 	
 Author
 ========
+Matías Penela.
+(map@matiaz.com)
 
+Original work by:
 Icarus So.
 (icarus.so.ch@gmail.com)

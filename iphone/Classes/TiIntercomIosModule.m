@@ -142,10 +142,54 @@
     NSLog(@"[DEBUG] Intercom logs event with name");
 }
 
+/*
 -(void)logEventWithNameAndData:(id)args
 {
     ENSURE_SINGLE_ARG(args, NSDictionary);
     [Intercom logEventWithName:[args objectForKey:@"name"] metaData: @{@"date": [args objectForKey:@"date"],@"data": [args objectForKey:@"data"]}];
     NSLog(@"[DEBUG] Intercom logs event with name and data");
 }
+*/
+
+- (void)logEventWithNameAndData:(id)args 
+{
+	//thanks to @animecyc for helping out with this https://github.com/animecyc
+	
+  	NSString *eventName = nil;
+  	NSDictionary *data = nil;
+
+  	ENSURE_ARG_AT_INDEX(eventName, args, 0, NSString);
+  	ENSURE_ARG_AT_INDEX(data, args, 1, NSDictionary);
+
+  	//NSLog(@"[INFO] %@ ~> %@", eventName, data);
+	[Intercom logEventWithName:eventName metaData:data];
+
+}
+
+-(void)setDeviceToken:(NSString *)devToken
+{	
+	//we have to convert device token from string to NSData
+	
+	const char * chars = [devToken UTF8String];
+	int i = 0;
+	int len = (int)devToken.length;
+
+	NSMutableData *data = [NSMutableData dataWithCapacity:len / 2];
+	char byteChars[3] = {'\0','\0','\0'};
+	unsigned long wholeByte;
+
+	while (i < len) 
+	{
+	    byteChars[0] = chars[i++];
+	    byteChars[1] = chars[i++];
+	    wholeByte = strtoul(byteChars, NULL, 16);
+	    [data appendBytes:&wholeByte length:1];
+	}
+	
+	NSLog(@"[DEBUG] Intercom registers device for push notifications:  %@", data );
+	
+    [Intercom setDeviceToken:data];
+   
+}
+
 @end
