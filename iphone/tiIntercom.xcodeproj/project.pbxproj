@@ -26,17 +26,10 @@
 		24DD6CFA1134B3F500162E58 /* TiIntercomIosModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* TiIntercomIosModule.m */; };
 		24DE9E1111C5FE74003F90F6 /* TiIntercomIosModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* TiIntercomIosModuleAssets.h */; };
 		24DE9E1211C5FE74003F90F6 /* TiIntercomIosModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* TiIntercomIosModuleAssets.m */; };
-		A5D0D6EF1B0D889800FCF3AB /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D0D6EE1B0D889800FCF3AB /* ImageIO.framework */; };
-		A5D0D6F11B0D88A000FCF3AB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D0D6F01B0D88A000FCF3AB /* MobileCoreServices.framework */; };
-		A5D0D6F31B0D88A800FCF3AB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D0D6F21B0D88A800FCF3AB /* SystemConfiguration.framework */; };
-		A5D0D6F51B0D88BF00FCF3AB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D0D6F41B0D88BF00FCF3AB /* AudioToolbox.framework */; };
-		A5D0D6F71B0D88C700FCF3AB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D0D6F61B0D88C700FCF3AB /* QuartzCore.framework */; };
-		A5D0D6F91B0D88CF00FCF3AB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D0D6F81B0D88CF00FCF3AB /* Security.framework */; };
-		A5D0D6FB1B0D88D800FCF3AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D0D6FA1B0D88D800FCF3AB /* CoreGraphics.framework */; };
-		A5D0D6FD1B0D88E200FCF3AB /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D0D6FC1B0D88E200FCF3AB /* libicucore.dylib */; };
-		A5FF5E301B0F20B100455794 /* Intercom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5FF5E2F1B0F20B100455794 /* Intercom.framework */; };
 		AA747D9F0F9514B9006C5449 /* TiIntercomIos_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* TiIntercomIos_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		BA33A0251BC8C3C400AE8AC6 /* Intercom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA33A0241BC8C3C400AE8AC6 /* Intercom.framework */; };
+		BA33A0271BC8C40F00AE8AC6 /* Intercom.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BA33A0261BC8C40F00AE8AC6 /* Intercom.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,17 +48,10 @@
 		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
 		24DE9E0F11C5FE74003F90F6 /* TiIntercomIosModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiIntercomIosModuleAssets.h; path = Classes/TiIntercomIosModuleAssets.h; sourceTree = "<group>"; };
 		24DE9E1011C5FE74003F90F6 /* TiIntercomIosModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiIntercomIosModuleAssets.m; path = Classes/TiIntercomIosModuleAssets.m; sourceTree = "<group>"; };
-		A5D0D6EE1B0D889800FCF3AB /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
-		A5D0D6F01B0D88A000FCF3AB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		A5D0D6F21B0D88A800FCF3AB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		A5D0D6F41B0D88BF00FCF3AB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		A5D0D6F61B0D88C700FCF3AB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		A5D0D6F81B0D88CF00FCF3AB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		A5D0D6FA1B0D88D800FCF3AB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A5D0D6FC1B0D88E200FCF3AB /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
-		A5FF5E2F1B0F20B100455794 /* Intercom.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Intercom.framework; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* TiIntercomIos_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiIntercomIos_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BA33A0241BC8C3C400AE8AC6 /* Intercom.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intercom.framework; path = platform/Intercom.framework; sourceTree = "<group>"; };
+		BA33A0261BC8C40F00AE8AC6 /* Intercom.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Intercom.bundle; path = platform/Intercom.bundle; sourceTree = "<group>"; };
 		D2AAC07E0554694100DB518D /* libTiIntercomIos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTiIntercomIos.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -74,16 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5FF5E301B0F20B100455794 /* Intercom.framework in Frameworks */,
-				A5D0D6FD1B0D88E200FCF3AB /* libicucore.dylib in Frameworks */,
-				A5D0D6FB1B0D88D800FCF3AB /* CoreGraphics.framework in Frameworks */,
-				A5D0D6F91B0D88CF00FCF3AB /* Security.framework in Frameworks */,
-				A5D0D6F71B0D88C700FCF3AB /* QuartzCore.framework in Frameworks */,
-				A5D0D6F51B0D88BF00FCF3AB /* AudioToolbox.framework in Frameworks */,
-				A5D0D6F31B0D88A800FCF3AB /* SystemConfiguration.framework in Frameworks */,
-				A5D0D6F11B0D88A000FCF3AB /* MobileCoreServices.framework in Frameworks */,
-				A5D0D6EF1B0D889800FCF3AB /* ImageIO.framework in Frameworks */,
 				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+				BA33A0251BC8C3C400AE8AC6 /* Intercom.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +79,6 @@
 		0867D691FE84028FC02AAC07 /* tiIntercom */ = {
 			isa = PBXGroup;
 			children = (
-				A5FF5E2F1B0F20B100455794 /* Intercom.framework */,
 				08FB77AEFE84172EC02AAC07 /* Classes */,
 				32C88DFF0371C24200C91783 /* Other Sources */,
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
@@ -113,14 +90,8 @@
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A5D0D6FC1B0D88E200FCF3AB /* libicucore.dylib */,
-				A5D0D6FA1B0D88D800FCF3AB /* CoreGraphics.framework */,
-				A5D0D6F81B0D88CF00FCF3AB /* Security.framework */,
-				A5D0D6F61B0D88C700FCF3AB /* QuartzCore.framework */,
-				A5D0D6F41B0D88BF00FCF3AB /* AudioToolbox.framework */,
-				A5D0D6F21B0D88A800FCF3AB /* SystemConfiguration.framework */,
-				A5D0D6F01B0D88A000FCF3AB /* MobileCoreServices.framework */,
-				A5D0D6EE1B0D889800FCF3AB /* ImageIO.framework */,
+				BA33A0261BC8C40F00AE8AC6 /* Intercom.bundle */,
+				BA33A0241BC8C3C400AE8AC6 /* Intercom.framework */,
 				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -186,7 +157,7 @@
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0600;
+				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "tiIntercom" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -214,6 +185,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA33A0271BC8C40F00AE8AC6 /* Intercom.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +238,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/platform",
 				);
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -283,7 +256,7 @@
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				INSTALL_PATH = /usr/local/lib;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_CFLAGS = (
 					"-DDEBUG",
@@ -308,6 +281,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/platform",
 				);
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_MODEL_TUNING = G5;
@@ -325,7 +299,7 @@
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				INSTALL_PATH = /usr/local/lib;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_CFLAGS = "-DTI_POST_1_2";
 				OTHER_LDFLAGS = "-ObjC";
@@ -344,6 +318,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DSTROOT = /tmp/TiIntercomIos.dst;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -360,6 +335,7 @@
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = (
 					"-DDEBUG",
@@ -398,7 +374,7 @@
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				INSTALL_PATH = /usr/local/lib;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DTI_POST_1_2";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = TiIntercomIos;
