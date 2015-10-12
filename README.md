@@ -1,4 +1,4 @@
-#Intercom iphone module for Intercom IOS SDK version 2.2.3
+#Intercom iphone module for Intercom IOS SDK version 2.3.11
 
 ## Change Log
 - Modified method logEventWithNameAndData. It now takes 2 parameters. 
@@ -47,7 +47,7 @@ TiIntercom.updateUserWithAttributes({
 
 
 ###Step 1
-Copy the ti.intercom.ios-iphone-1.0.1.zip into your Titanium SDK directory: http://docs.appcelerator.com/titanium/2.0/#!/guide/Titanium_Modules
+Copy the ti.intercom.ios-iphone-{version}.zip into your Titanium SDK directory: http://docs.appcelerator.com/titanium/2.0/#!/guide/Titanium_Modules
 
 Update modules section of your tiapp.xml like below:
 
@@ -103,3 +103,5 @@ Matías Penela.
 Original work by:
 Icarus So.
 (icarus.so.ch@gmail.com)
+
+Special Thanks to Minh Nguyen for 2.3.11 upgrade.
