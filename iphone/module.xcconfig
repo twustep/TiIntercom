@@ -26,6 +26,6 @@
 // IMPORTANT NOTE: always use $(inherited) in your overrides
 // 
 
-FRAMEWORK_SEARCH_PATHS=$(SRCROOT)/../../modules/iphone/ti.intercom.ios/1.0.2/platform ~/Library/Application\ Support/Titanium/modules/iphone/ti.intercom.ios/1.0.2/platform
+FRAMEWORK_SEARCH_PATHS=$(SRCROOT)/../../modules/iphone/ti.intercom.ios/2.3.11/platform ~/Library/Application\ Support/Titanium/modules/iphone/ti.intercom.ios/2.3.11/platform
 
 OTHER_LDFLAGS = $(inherited) -ObjC -l"icucore" -l"xml2" -framework "AssetsLibrary" -framework "AudioToolbox" -framework "CFNetwork" -framework "CoreGraphics" -framework "Foundation" -framework "ImageIO" -framework "Intercom" -framework "MobileCoreServices" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
